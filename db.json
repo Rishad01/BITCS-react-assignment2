@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Introduction to Blog1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet suscipit condimentum. Vestibulum ac risus dictum, tempor enim id, fringilla ante. Quisque quis consectetur ipsum. Nam malesuada ornare libero quis dapibus. Nullam a venenatis mi. Nunc efficitur ex dui, vitae scelerisque nisl cursus vitae. Duis tristique maximus nisl et lacinia. In porta mauris non diam commodo dictum. Nam sollicitudin ac odio at pretium. Curabitur mattis, mi nec convallis posuere, est purus placerat quam, vitae hendrerit lacus erat sed ipsum. Nullam varius dolor elit, at porttitor ligula aliquet id. Fusce ultricies rutrum lacus ac venenatis. Aenean vehicula at lacus quis tincidunt. Pellentesque sem tortor, iaculis eget metus nec",
+      "authorName": "John Doe"
+    },
+    {
+      "id": "2",
+      "title": "Getting Started with Blog2",
+      "description": "Sed ornare leo id orci venenatis gravida. Maecenas viverra, enim id lacinia lacinia, lacus velit tempus massa, et interdum risus justo eu leo. Maecenas vitae luctus magna. Nam ultricies nec urna et euismod. Aliquam quis lorem eros. Integer est libero, accumsan et porta vel, elementum sed dui. Nulla vitae ullamcorper massa, finibus rutrum ligula. In at rutrum tellus. Sed sodales neque dolor, sed maximus justo molestie ac. In pulvinar laoreet justo, at vehicula ex. Proin blandit mauris metus, vel ultrices ligula convallis id. Ut facilisis blandit nunc eget accumsan. Suspendisse sed consectetur elit.",
+      "authorName": "Jane Smith"
+    },
+    {
+      "id": "3",
+      "title": "Understanding Blog3",
+      "description": "Nulla facilisi. Pellentesque libero turpis, consectetur eu malesuada ut, cursus vitae odio. Praesent augue risus, fringilla ac tortor varius, vulputate imperdiet odio. Sed commodo, tellus vel vehicula facilisis, leo nisi bibendum sapien, vitae pellentesque nulla purus a sem. Duis quis semper magna. Sed a magna libero. Nullam et faucibus tellus. Nunc neque arcu, pellentesque quis ipsum in, rutrum lobortis neque. Phasellus sit amet urna diam. Ut cursus vulputate mollis. Praesent ornare augue quis fermentum elementum. Etiam varius arcu porta, dapibus tellus id, pretium leo. Duis tincidunt malesuada mauris molestie mattis. Praesent non porta quam.",
+      "authorName": "David Brown"
+    },
+    {
+      "id": "4",
+      "title": "A Guide to Blog4",
+      "description": "Ut volutpat hendrerit varius. Sed eu mi a urna iaculis molestie eu quis odio. Donec eget mi interdum, viverra ante et, imperdiet nibh. Praesent scelerisque egestas risus, vitae dictum libero feugiat eu. Donec nisi lacus, tempus facilisis blandit sit amet, egestas quis justo. Etiam dapibus nulla odio, id pharetra lacus viverra in. Nam in scelerisque massa. Sed lorem enim, pulvinar nec ex vitae, dignissim scelerisque enim. Etiam commodo eleifend urna id euismod.",
+      "authorName": "Emily White"
+    },
+    {
+      "id": "5",
+      "title": "Explaining Blog5",
+      "description": "Aliquam aliquet ex finibus, maximus lectus nec, faucibus odio. Nam nibh metus, maximus sit amet justo non, pulvinar commodo risus. Curabitur et neque justo. Nulla mollis gravida quam tincidunt molestie. Vivamus ullamcorper nulla ut tristique pharetra. Mauris faucibus eu sem a gravida. Etiam nec mi vitae ligula viverra tincidunt quis sit amet lorem.",
+      "authorName": "Michael Johnson"
+    }
+  ]
+}

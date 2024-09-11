@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import BlogPage from './Components/BlogPage';
+import EditPage from './Components/EditPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/home" element={<App />} />
+        <Route path="/blog/:id" element={<BlogPage />} />
+        <Route path="/editblog/:id" element={<EditPage />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
