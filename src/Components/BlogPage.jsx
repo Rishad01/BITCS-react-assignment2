@@ -34,11 +34,6 @@ function BlogPage()
                         By: {blog.authorName}
                         </Typography>
                     </CardContent>
-                    <CardActions>
-                        <Box sx={{ display: 'flex', justifyContent: 'flex-end', width: '100%', gap: 1 }}>
-                            <Button variant="contained">Delete</Button>
-                        </Box>
-                    </CardActions>
                 </Card>
         </Container>
     )
