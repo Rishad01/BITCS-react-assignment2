@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getBlogs, deleteBlog } from "../utitlity/apis";
+import { getBlogs, deleteBlog } from "../util/apis";
 import { Button, Container, Typography,Card,CardContent,CardActions,Box} from '@mui/material';
 function Home()
 {

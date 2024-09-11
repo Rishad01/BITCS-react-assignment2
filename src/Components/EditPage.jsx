@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
-import { getBlogById,editBlog } from "../utitlity/apis";
+import { getBlogById,editBlog } from "../util/apis";
 import { Container,Card,CardActions,Button,Box,Typography,CardContent,Input } from "@mui/material";
 
 function EditPage()
