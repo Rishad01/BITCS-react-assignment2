@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getBlogs } from "../utitlity/apis";
+import { getBlogs, deleteBlog } from "../utitlity/apis";
 import { Button, Container, Typography,Card,CardContent,CardActions,Box} from '@mui/material';
 function Home()
 {
@@ -23,7 +23,12 @@ function Home()
         navigate(`/editblog/${id}`);
     }
 
+    const handleDelete=async(id)=>{
+        await deleteBlog(id);
+        setBlogs(blogs.filter(blog => blog.id !== id));
+    }
     return(
+        <div>
         <Container sx={{ mt: 3 }}>
         {blogs.map((blog,index)=>{
             return (
@@ -41,7 +46,7 @@ function Home()
                         <Box sx={{ display: 'flex', justifyContent: 'flex-end', width: '100%', gap: 1 }}>
                             <Button variant="contained" onClick={() => handleOpen(blog.id)}>Open</Button>
                             <Button variant="contained" onClick={() => handleEdit(blog.id)}>Edit</Button>
-                            <Button variant="contained">Delete</Button>
+                            <Button variant="contained" onClick={() => handleDelete(blog.id)}>Delete</Button>
                         </Box>
                     </CardActions>
                 </Card>
@@ -50,6 +55,7 @@ function Home()
         })}
             
         </Container>
+        </div>
     )
 }
 

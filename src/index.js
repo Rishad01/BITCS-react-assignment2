@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import BlogPage from './Components/BlogPage';
 import EditPage from './Components/EditPage';
+import Header from './Components/Header';
+import Contact from './Components/Contact';
+import About from './Components/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,8 +14,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+    <Header />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         <Route path="/home" element={<App />} />
         <Route path="/blog/:id" element={<BlogPage />} />
         <Route path="/editblog/:id" element={<EditPage />} />

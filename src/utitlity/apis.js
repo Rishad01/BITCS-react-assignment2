@@ -33,4 +33,12 @@ const editBlog=async(id,updatedData)=>{
     }
 }
 
-export {getBlogs,getBlogById,editBlog};
+const deleteBlog=async (id)=>{
+    try {
+        await axios.delete(`${api_url}/${id}`);
+    } catch (error) {
+        console.error('Error deleting blog:', error);
+    }
+}
+
+export {getBlogs,getBlogById,editBlog,deleteBlog};
