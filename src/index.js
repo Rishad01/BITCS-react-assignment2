@@ -1,20 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import BlogPage from './components/BlogPage';
-import EditPage from './components/EditPage';
-import Header from './components/Header';
-import Contact from './components/Contact';
-import About from './components/About';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import BlogPage from "./components/BlogPage";
+import EditPage from "./components/EditPage";
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/contact" element={<Contact />} />
