@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import BlogPage from './Components/BlogPage';
-import EditPage from './Components/EditPage';
-import Header from './Components/Header';
-import Contact from './Components/Contact';
-import About from './Components/About';
+import BlogPage from './components/BlogPage';
+import EditPage from './components/EditPage';
+import Header from './components/Header';
+import Contact from './components/Contact';
+import About from './components/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 

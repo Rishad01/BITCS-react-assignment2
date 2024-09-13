@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
-import { getBlogById } from "../util/apis";
+import { getBlogById } from "../services/apis";
 import { Container,Card,Typography,CardContent } from "@mui/material";
 
 function BlogPage()
